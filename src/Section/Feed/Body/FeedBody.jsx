@@ -1,7 +1,10 @@
+import Drawer from '../../../Components/Drawers/Drawer';
 import './FeedBody.css';
 const FeedBody = () => {
     return (
-        <div className="FeedBody"></div>
+        <div className="FeedBody">
+            <Drawer/>
+        </div>
     );
 }
 

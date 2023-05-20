@@ -1,8 +1,10 @@
 import './NavbarBtn.css'
 
-const NavbarBtn = ({color, value}) => {
+const NavbarBtn = ({color, value, handleClick}) => {
     return (
-        <button className='NavbarBtn' style={{backgroundColor : `${color}`}}>{value}</button>
+        <button className='NavbarBtn' 
+        style={{backgroundColor : `${color}`}}
+        onClick={handleClick}>{value}</button>
     );
 }
 
