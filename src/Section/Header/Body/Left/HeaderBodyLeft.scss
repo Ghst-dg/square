@@ -1,0 +1,19 @@
+.HeaderBodyLeft{
+    height: 100%;
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-right: 5px solid #000000;
+
+    span{
+        font-size: 88px;
+        display: block;
+        text-align: left;
+        height: 69%;
+        width: 100%;
+        margin: auto;
+    }
+}

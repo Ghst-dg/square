@@ -1,0 +1,16 @@
+.HeaderBodyRight {
+  height: 100%;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+.HeaderBodyRight span {
+  display: block;
+  margin: auto;
+  font-size: 96px;
+  text-align: center;
+}/*# sourceMappingURL=HeaderBodyRight.css.map */

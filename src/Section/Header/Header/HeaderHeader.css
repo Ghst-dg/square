@@ -1,0 +1,21 @@
+.HeaderHeader {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.HeaderHeader h1 {
+  background-color: white;
+  display: inline;
+  float: left;
+  margin-top: 0;
+  margin-left: 1%;
+  font-size: 2rem;
+  border: 3px solid #000000;
+  border-top: none;
+  box-shadow: 3px 3px 0px 0px #000000;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}/*# sourceMappingURL=HeaderHeader.css.map */

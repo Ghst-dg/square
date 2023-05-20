@@ -1,0 +1,9 @@
+.HeaderBody {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=HeaderBody.css.map */
