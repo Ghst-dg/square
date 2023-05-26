@@ -1,0 +1,25 @@
+.FeedSearch{
+    width: 50%;
+    height: 60%;
+    border: 5px solid black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+    input{
+        width: 90%;
+        height: 90%;
+        outline: none;
+        border: none;
+        font-size: 36px;
+        border-radius: 36px;
+        text-align: center;
+    }
+
+    div{
+        width: 9%;
+        height: 90%;
+    }
+}

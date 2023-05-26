@@ -1,0 +1,10 @@
+.MainFeedBody{
+    height: 90%;
+    width: 100%;
+    // test flex need to remove
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    //need to remove test flex
+}

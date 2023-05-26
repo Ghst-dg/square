@@ -1,0 +1,31 @@
+.ProfileFeed{
+    height: 90%;
+    width: 100%;
+}
+
+.ProfilePhotoEdit{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.ProfilePhotoEditContainer{
+    height: 250px;
+    width: 250px;
+    border-radius: 400px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0px 0px #000000;
+}
+
+.ProfileEditForm{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}

@@ -1,0 +1,62 @@
+.CardType1 {
+  height: 450px;
+  width: 275px;
+  border: 5px solid #000000;
+  border-radius: 16px;
+  box-shadow: 5px 5px 0px 0px #000000;
+}
+
+.CardType1:active {
+  box-shadow: 3px 3px 0px 0px #000000;
+}
+
+.CardImageContainerType1 {
+  width: 100%;
+  height: 80%;
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #FF5D5D;
+}
+
+.CardImageType1 {
+  width: 225px;
+  height: 325px;
+  border-radius: 16px;
+  border: 5px solid black;
+  box-shadow: 5px 5px 0px 0px #000000;
+  background-image: url("https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.CardTextContainerType1 {
+  width: 100%;
+  height: 20%;
+  border-radius: 0px 0px 12px 12px;
+  box-sizing: border-box;
+  border-top: 5px solid #000000;
+  font-family: "Caveat", cursive;
+}
+
+.CardTitle1 {
+  display: block;
+  width: 95%;
+  height: 70%;
+  font-size: 36px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.CardSubtitle1 {
+  display: block;
+  width: 95%;
+  height: 30%;
+  font-size: 24px;
+  text-align: right;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}/*# sourceMappingURL=CardType1.css.map */
