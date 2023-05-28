@@ -1,10 +1,10 @@
 .ProfileFeed {
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 
 .ProfilePhotoEdit {
-  height: 40%;
+  height: 30%;
   width: 100%;
   display: flex;
   flex-wrap: wrap;

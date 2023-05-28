@@ -1,8 +1,8 @@
 import './CardType2.css'
 
-const CardType2 = () => {
+const CardType2 = ({style}) => {
     return(
-        <div className='CardType2'>
+        <div className='CardType2' style={style}>
             <div className="CardImageContainerType2">
                 <div className='CardImageType2'></div>
             </div>

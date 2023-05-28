@@ -2,9 +2,9 @@
 import CardRating from '../../CardComponent/Rating/CardRating/CardRating';
 import './CardType1.css'
 
-const CardType1 = () => {
+const CardType1 = ({style}) => {
     return(
-        <div className='CardType1'>
+        <div className='CardType1' style={style}>
             <div className="CardImageContainerType1">
                 <div className='CardImageType1'>
                     <CardRating value={75} color={'#FF5D5D'}/>

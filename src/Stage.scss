@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family: 'Merriweather', serif;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 button {
@@ -14,6 +16,9 @@ input{
 }
 
 .Stage{
-    height: 100vh;
-    width: 100vh;
+    
+}
+
+::-webkit-scrollbar{
+    display: none;
 }

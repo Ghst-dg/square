@@ -1,4 +1,5 @@
 import Feed from './Section/Feed/Feed';
+import Footer from './Section/Footer/Footer';
 import Header from './Section/Header/Header';
 import './Stage.css'
 
@@ -7,6 +8,7 @@ const Stage = () => {
         <div className="Stage">
             <Header/>
             <Feed/>
+            <Footer/>
         </div>
     );
 }

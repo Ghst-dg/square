@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import './DrawerPane.css'
 import { FeedDrawerOpen } from '../../../Section/Feed/Feed';
+import HistoryFeed from '../DrawerContent/HistoryFeed/HistoryFeed';
 
 
 const DrawerPane = () => {

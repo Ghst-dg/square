@@ -1,6 +1,6 @@
 .DrawerPane {
-  height: 100vh;
-  width: 40vw;
+  height: 100%;
+  width: 30%;
   right: 0;
   border: 5px solid black;
   border-bottom: 0px;

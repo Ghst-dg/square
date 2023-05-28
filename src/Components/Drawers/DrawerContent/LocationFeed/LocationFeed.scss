@@ -1,27 +1,27 @@
-.ProfileFeed{
+.LocationFeed{
     height: 100%;
     width: 100%;
 }
 
-.ProfilePhotoEdit{
-    height: 30%;
+.LocationFeedMapContainer{
+    height: 40%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+
+    div{
+        width: 75%;
+        height: 80%;
+        border: 5px solid #000000;
+        box-shadow: 5px 5px 0px 0px #000000;
+        border-radius: 30px;
+    }
 }
 
-.ProfilePhotoEditContainer{
-    height: 250px;
-    width: 250px;
-    border-radius: 400px;
-    border: 3px solid #000000;
-    box-shadow: 3px 3px 0px 0px #000000;
-}
-
-.ProfileEditForm{
-    height: 60%;
+.LocationFeedForm{
+    height: 50%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;

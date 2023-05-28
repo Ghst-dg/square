@@ -1,14 +1,14 @@
-.ProfileFeedInput {
+.DrawerInput {
   width: 90%;
   display: block;
   margin-bottom: 2%;
   margin-top: 2%;
 }
-.ProfileFeedInput label {
+.DrawerInput label {
   display: block;
   font-size: 28px;
 }
-.ProfileFeedInput input {
+.DrawerInput input {
   display: block;
   width: 80%;
   font-size: 36px;
@@ -16,6 +16,6 @@
   border: 5px solid #000000;
   text-align: center;
 }
-.ProfileFeedInput input:focus {
+.DrawerInput input:focus {
   outline: none;
-}/*# sourceMappingURL=ProfileFeedInput.css.map */
+}/*# sourceMappingURL=DrawerInput.css.map */
